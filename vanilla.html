@@ -1,0 +1,66 @@
+<html>
+<head>
+    <title>Vanilla JS app</title>
+    <meta charset="UTF-8">
+    <script src="vanilla.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="list">
+    <h2>This is your todo</h2>
+    <div id="list">
+        <div id="0" class="container" style="background: blue">
+            <input type="checkbox" name="0" class="check">
+            <label class="text">Test</label>
+        </div>
+    </div>
+    <div class="input-container">
+        <!--        //todo custom checkbox with input-->
+        <input type="text" placeholder="New task" class="text-input" id="input"/>
+        <!--        <div class="color">-->
+        <!--            <input id="radio-1" type="radio" name="radio" value="1">-->
+        <!--            <label for="radio-1" class="color-blue">-->
+        <!--            </label>-->
+        <!--        </div>-->
+        <!--        <div class="color">-->
+        <!--            <input id="radio-2" type="radio" name="radio" value="2">-->
+        <!--            <label for="radio-2" class="color-yellow">-->
+        <!--            </label>-->
+        <!--        </div>-->
+        <!--        <div class="color">-->
+        <!--            <input id="radio-3" type="radio" name="radio" value="3">-->
+        <!--            <label for="radio-3" class="color-green"></label>-->
+        <!--        </div>-->
+        <!--        <div class="color">-->
+        <!--            <input id="radio-4" type="radio" name="radio" value="4">-->
+        <!--            <label for="radio-4" class="color-red">-->
+        <!--            </label>-->
+        <!--        </div>-->
+        <!--        <div class="color">-->
+        <!--            <input id="radio-5" type="radio" name="radio" value="5">-->
+        <!--            <label for="radio-5" class="color-lite-green">-->
+        <!--            </label>-->
+        <!--        </div>-->
+        <!--        <div class="color">-->
+        <!--            <input id="radio-6" type="radio" name="radio" value="6">-->
+        <!--            <label for="radio-6" class="color-night-sky"></label>-->
+        <!--        </div>-->
+        <div class="color">
+
+            <input type="radio" name="radio" class="color color-blue" id="1"/>
+            <label for="1" class="color-blue"></label>
+            <input type="radio" name="radio" class="color color-yellow" id="2"><label for="2"
+                                                                                      class="color-yellow"></label>
+            <input type="radio" name="radio" class="color color-green" id="3"/><label for="3"
+                                                                                      class="color-green"></label>
+            <input type="radio" name="radio" class="color color-red" id="4"/><label for="4" class="color-red"></label>
+            <input type="radio" name="radio" class="color color-lite-green" id="5"/><label for="5"
+                                                                                           class="color-lite-green"></label>
+            <input type="radio" name="radio" class="color color-night-sky" id="6"/><label for="6"
+                                                                                          class="color-night-sky"></label>
+        </div>
+        <button type="button" class="buttonAdd" onclick="createTask()">Add</button>
+    </div>
+</div>
+</body>
+</html>

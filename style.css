@@ -1,0 +1,120 @@
+body {
+    text-align: center;
+    line-height: 20px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    line-height: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
+.container {
+    height: 50px;
+    display: flex;
+    line-height: normal;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+.check{
+    margin-left: 20px;
+}
+.text{
+    margin-left: 20px;
+}
+
+.completed {
+    background: #ccc;
+}
+
+.color-blue {
+    background: blue;
+}
+
+.color-yellow {
+    background: #ffa400;
+}
+
+.color-green {
+    background: green;
+}
+
+.color-red {
+    background: red;
+}
+
+.color-lite-green {
+    background: #00b669;
+}
+
+.color-night-sky {
+    background: #530cff;
+}
+
+.buttonAdd {
+    width: 55px;
+    height: 40px;
+    border: none;
+    color: aliceblue;
+    background: seagreen;
+    font-size: 17px;
+    border-radius: 5px;
+    outline-color: white;
+}
+
+.input-container {
+    margin-left: auto;
+    margin-right: auto;
+    height: 45px;
+    width: 600px;
+    border: 1px solid;
+    outline: none;
+    border-radius: 5px;
+}
+
+.text-input {
+    height: 45px;
+    width: 300px;
+    border: none;
+    outline: none;
+}
+
+
+.color {
+    display: inline-block;
+    margin-right: 10px;
+}
+.color input[type=radio] {
+    display: none;
+}
+.color label {
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+.color input[type=radio]:checked + label {
+    border: 3px solid darkgoldenrod;
+}
+
+/*.color {*/
+/*    display: inline-block;*/
+/*    vertical-align: middle;*/
+/*    cursor: pointer;*/
+/*    width: 25px;*/
+/*    height: 25px;*/
+/*    border: 1px solid white;*/
+/*    border-radius: 5px;*/
+/*}*/
+/*/////////////////*/
+
