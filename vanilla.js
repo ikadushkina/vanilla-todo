@@ -1,11 +1,13 @@
 let id = 1;
 const array = ['color-blue', 'color-yellow', 'color-green', 'color-red', 'color-lite-green', 'color-night-sky'];
 
-const mainButton = document.getElementById('main');
-mainButton.addEventListener('click', createTask);
+function loadPage (){
+    const mainButton = document.getElementById('main');
+    mainButton.addEventListener('click', createTask);
+}
 
 function createTask() {
-    let value = document.getElementById('input').value;
+    const value = document.getElementById('input').value;
     if (!value) return (alert("Введите задачу!!!"));
 
     const checkColor = document.querySelector('input.color:checked');
@@ -38,15 +40,15 @@ function createTask() {
     document.getElementById('list').appendChild(div);
     checkbox.addEventListener('click', completed);
 
-    id++;
     if (checkColor) checkColor.checked = false;
     document.getElementById('input').value = "";
+    id++;
 }
 
 function completed(e) {
-    let id = e.target.id;
+    const id = e.target.id;
     const div = document.getElementById(id + "item");
-    const oldStyle = div.classList[1];
+
     if (e.target.checked) {
         div.classList.add("completed-task");
     } else {

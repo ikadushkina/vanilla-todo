@@ -2,19 +2,17 @@
 <head>
     <title>Vanilla JS app</title>
     <meta charset="UTF-8">
-
+    <script src="vanilla.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
+<body onload="loadPage()">
 <div class="list">
     <div id="list">
         <p>Your todos</p>
     </div>
     <div class="input-container">
         <input type="text" placeholder="Add new item" class="text-input" id="input"/>
-
         <div class="color">
-
             <input type="radio" name="radio" class="color color-blue" id="s1"/>
             <label for="s1" class="color-blue"></label>
             <input type="radio" name="radio" class="color color-yellow" id="s2">
@@ -31,6 +29,5 @@
         <button id="main" class="buttonAdd">Add</button>
     </div>
 </div>
-<script src="vanilla.js"></script>
 </body>
 </html>
