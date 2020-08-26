@@ -22,12 +22,14 @@ body {
     color: white;
     font-size: 20px;
 }
-.check{
+
+.check {
     display: flex;
     justify-content: center;
     width: 50px;
 }
-.text{
+
+.text {
     width: 450px;
     height: 50px;
     font-size: 17px;
@@ -92,6 +94,7 @@ body {
     outline: none;
     text-indent: 15px;
 }
+
 .text-input::-webkit-input-placeholder {
     color: grey;
 }
@@ -100,9 +103,11 @@ body {
     display: inline-block;
     margin-right: 10px;
 }
+
 .color input[type=radio] {
     display: none;
 }
+
 .color label {
     display: inline-block;
     vertical-align: middle;
@@ -110,6 +115,7 @@ body {
     height: 15px;
     border: 1px solid white;
 }
+
 .color input[type=radio]:checked + label {
     outline: 1px solid darkgoldenrod;
 }

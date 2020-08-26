@@ -2,7 +2,6 @@ let id = 1;
 const array = ['color-blue', 'color-yellow', 'color-green', 'color-red', 'color-lite-green', 'color-night-sky'];
 
 const mainButton = document.getElementById('main');
-
 mainButton.addEventListener('click', createTask);
 
 function createTask() {
